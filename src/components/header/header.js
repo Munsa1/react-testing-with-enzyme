@@ -1,10 +1,14 @@
 import React from 'react'
-
+import 'header.scss';
 const Header = ()=>{
 
     return(
         <header>
-            Header
+            <div className="wrap">
+                <div className="logo">
+
+                </div>
+            </div>
         </header>
     )
 };
