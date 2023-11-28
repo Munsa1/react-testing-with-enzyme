@@ -1,14 +1,22 @@
+header {
+    background: rgb(145, 185, 136);
+}
+
 .wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 19px 16px;
+    margin: 0 16px;
 }
 
 .nav-links {
     display: flex;
     padding: 12px;
     gap: 12px;
+}
+
+.nav-links a {
+    color: #000000;
 }
 
 .logo img {
