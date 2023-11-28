@@ -11,13 +11,12 @@ const Header = ()=>{
                 <div className="logo">
                     <img src={myLogo} alt="Logo" />
                 </div>
-                <div>
+                <div className='nav-links'>
                     <ul>
-                        <li>Home</li>
-                        <li>Contact</li>
-                        <li>About</li>
+                        <a href='#'><li>Home</li></a>
+                        <a href='#'><li>Contact</li></a>
+                        <a href='#'><li>About</li></a>
                     </ul>
-
                 </div>
             </div>
         </header>
