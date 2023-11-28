@@ -1,0 +1,29 @@
+header {
+    background: rgb(145, 185, 136);
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 16px;
+}
+
+.nav-links {
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+}
+
+.nav-links a {
+    color: #000000;
+}
+
+.nav-links a:hover {
+    color: #c72323;
+    transition: ease-in 0.5s;
+}
+
+.logo img {
+    width: 5%
+}
